@@ -447,7 +447,9 @@ class Optimize {
         'Buffer.isBuffer': undefined,
         Buffer: undefined
       }
-    })
+    }).transform(babelify.configure({
+      presets: ["es2015"]
+    }))
 
     /** Browserify exclude */
     functionOptions.exclude.forEach((exclusion) => {
@@ -473,7 +475,7 @@ class Optimize {
       global: functionOptions.global,
       ignore: functionOptions.ignore,
       plugins: functionOptions.plugins,
-      presets: ["es2015"],
+      presets: functionOptions.presets
     })
 
     /** Generate bundle */
