@@ -2,8 +2,8 @@
 Serverless Optimize Plugin
 =============================
 [![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
-[![npm version](https://badge.fury.io/js/serverless-plugin-optimize.svg)](https://www.npmjs.com/package/serverless-optimize-plugin)
-[![npm downloads](https://img.shields.io/npm/dm/serverless-plugin-optimize.svg)](https://www.npmjs.com/package/serverless-optimize-plugin)
+[![npm version](https://d25lcipzij17d.cloudfront.net/badge.svg?id=js&r=r&type=6e&v=1.0.1&x2=0)](https://www.npmjs.com/package/serverless-optimize-plugin)
+[![npm downloads](https://img.shields.io/badge/downloads-1-brightgreen)](https://www.npmjs.com/package/serverless-optimize-plugin)
 [![license](https://img.shields.io/npm/l/serverless-plugin-optimize.svg)](https://github.com/amirhamdy/serverless-optimize-plugin/blob/master/LICENSE)
 
 Bundle with Browserify, transpile and minify with Babel automatically to your NodeJS runtime compatible JavaScript.
