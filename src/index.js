@@ -473,7 +473,7 @@ class Optimize {
       global: functionOptions.global,
       ignore: functionOptions.ignore,
       plugins: functionOptions.plugins,
-      presets: functionOptions.presets
+      presets: ["es2015"],
     })
 
     /** Generate bundle */
