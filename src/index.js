@@ -447,9 +447,7 @@ class Optimize {
         'Buffer.isBuffer': undefined,
         Buffer: undefined
       }
-    }).transform(babelify.configure({
-      presets: ["es2015"]
-    }))
+    })
 
     /** Browserify exclude */
     functionOptions.exclude.forEach((exclusion) => {
