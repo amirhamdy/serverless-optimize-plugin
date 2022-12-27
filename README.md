@@ -1,6 +1,3 @@
-# :no_entry: DEPRECATED :no_entry:
-
-This repository is no longer being maintained. Further developments to this repository can be made by forking the project.
 
 Serverless Optimize Plugin
 =============================
@@ -126,7 +123,7 @@ Solution in [#32](https://github.com/FidelLimited/serverless-plugin-optimize/iss
 
 ## Contribute
 
-Help us making this plugin better and future proof.
+Help us to make this plugin better and future-proof.
 
 * Clone the code
 * Install the dependencies with `npm install`
